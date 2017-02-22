@@ -1,0 +1,51 @@
+*{
+    /*margin: 0%;
+    padding: 0%;*/
+    color: aliceblue;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+.header {
+    margin-bottom: 10px;
+}
+.content {
+    width: 70%;
+    float: left;
+}
+.sidebar {
+    width: 30%;
+    float: left;
+    padding-left: 10px;
+}
+.footer {
+    margin-top: 10px;
+}
+.row:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+.inner-header{
+     background-color:rebeccapurple;
+     height: 200px;
+}
+.inner-content{
+     background-color:rebeccapurple;
+     min-height: 500px;
+}
+.inner-sidebar{
+     background-color:rebeccapurple;
+     min-height: 500px;
+}
+.inner-footer{
+     background-color:rebeccapurple;
+     height: 200px;
+}
